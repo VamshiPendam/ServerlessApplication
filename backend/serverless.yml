@@ -1,0 +1,15 @@
+service: todoApi
+provider:
+  name: aws
+  runtime: nodejs10.x
+
+plugins:
+  - serverless-offline
+
+functions:
+  listTodos:
+    handler: handler.listTodos
+    events:
+      - http:
+          path: todo/list
+          method: get
