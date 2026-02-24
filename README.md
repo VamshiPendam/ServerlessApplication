@@ -1,9 +1,5 @@
 ﻿# Serverless_Application
 
- ---
-description: How to run both frontend and backend for the Serverless CI/CD project
----
-
 # How to Run the Project
 
 Follow these steps to start the application components on your local machine.
@@ -29,5 +25,6 @@ Follow these steps to start the application components on your local machine.
 
 > [!TIP]
 > If the cards don't show up immediately, refresh the page with **Ctrl + F5**.
+
 
 
